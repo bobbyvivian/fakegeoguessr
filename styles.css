@@ -1,0 +1,61 @@
+/* map */
+#pano {
+  float: center;
+  height: 100%;
+  width: 100%;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #eab7b1 !important;
+    color:#47251f !important;
+}
+
+/* the Google Maps element showing the address, we don't want users seeing the answer */
+.gm-iv-address {
+    display: none;
+}
+
+/* override bootstrap */
+.row-custom {
+    min-height: 400px;
+}
+
+.green {
+    background-color: #73815e;
+}
+
+.navbar-brand:hover {
+    color: rgb(248, 225, 225) !important;
+}
+
+.btn-outline-dark:hover {
+    background-color: #47251f !important;
+}
+
+#mapCol {
+    min-height: 500px;
+}
+/* .grid-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 500px;
+    justify-content: center;
+}
+
+.grid-item {
+    position: relative;
+    flex: 0 0 48%;
+    overflow: hidden;
+    align-items: center;
+} */
+
+/* display none for now, change when correct/wrong in JS */
+.correct {
+    display: none;
+}
